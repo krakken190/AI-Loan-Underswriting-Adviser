@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Loan Underwriting Advisor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>AI Loan Underwriting Advisor</h2>
+        <form action="/predict" method="post">
+            <div class="form-group">
+                <label for="Salary">Salary:</label>
+                <input type="text" id="Salary" name="Salary" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Assets">Assets:</label>
+                <input type="text" id="Assets" name="Assets" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ExistingLoans">Existing Loans:</label>
+                <input type="text" id="ExistingLoans" name="ExistingLoans" required>
+            </div>
+
+            <div class="form-group">
+                <label for="CreditScore">Credit Score:</label>
+                <input type="text" id="CreditScore" name="CreditScore" required>
+            </div>
+
+            <div class="form-group">
+                <label for="NumAccounts">Number of Accounts:</label>
+                <input type="text" id="NumAccounts" name="NumAccounts" required>
+            </div>
+
+            <div class="form-group">
+                <label for="PropertyOwnership">Property Ownership (1 for Yes, 0 for No):</label>
+                <input type="text" id="PropertyOwnership" name="PropertyOwnership" required>
+            </div>
+
+            <div class="form-group">
+                <label for="VoterRegistration">Voter Registration (1 for Yes, 0 for No):</label>
+                <input type="text" id="VoterRegistration" name="VoterRegistration" required>
+            </div>
+
+            <div class="form-group">
+                <label for="TotalIncome">Total Income:</label>
+                <input type="text" id="TotalIncome" name="TotalIncome" required>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

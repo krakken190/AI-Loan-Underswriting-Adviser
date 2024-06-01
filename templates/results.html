@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Application Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Loan Application Results</h2>
+        <p>Creditworthy: {{ 'Yes' if creditworthy else 'No' }}</p>
+        <p>Fraudulent: {{ 'Yes' if fraud else 'No' }}</p>
+        <h3>Explanation:</h3>
+        <div class="explanation">{{ explanation }}</div>
+        <a class="button" href="/">Go Back</a>
+    </div>
+</body>
+</html>
