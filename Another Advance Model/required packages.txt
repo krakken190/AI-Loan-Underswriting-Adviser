@@ -1,0 +1,13 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report
+
+from tempfile import TemporaryFile
+from io import BytesIO
+
+from flask import Flask, render_template, request, send_file
+import joblib
+from fpdf import FPDF
+import openai
