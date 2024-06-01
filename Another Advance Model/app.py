@@ -17,7 +17,7 @@ creditworthiness_model = joblib.load('models/creditworthiness_model.pkl')
 creditworthiness_scaler = joblib.load('models/creditworthiness_scaler.pkl')  # Updated scaler with new features
 creditworthiness_label_encoders = joblib.load('models/creditworthiness_label_encoders.pkl')
 
-openai.api_key = 'sk-proj-6gNUSv7V5wnKEZYg9xc0T3BlbkFJkZABRj2L65yhKnmXqyth'
+openai.api_key = 'sk-proj-6gNUSvkZABRj2L65yhKnmXqyth'
 
 
 @app.route('/')
