@@ -12,7 +12,7 @@ with open('credit_worthiness_model.pkl', 'rb') as f:
 with open('fraud_detect_ion_model.pkl', 'rb') as f:
     fraud_model = pickle.load(f)
 
-openai.api_key = "sk-proj-6gNUSv7V5wnKEZYg9xc0T3BlbkFJkZABRj2L65yhKnmXqyth"  # Keep this confidential
+openai.api_key = "sk-proj-6gyhKnmXqyth"  # Keep this confidential
 
 @app.route('/')
 def index():
