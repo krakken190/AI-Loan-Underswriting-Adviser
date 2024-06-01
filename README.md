@@ -1,3 +1,11 @@
+
+
+
+https://github.com/krakken190/AI-Loan-Underswriting-Adviser/assets/72223902/bdff8b32-ef0c-41d8-a7c3-ca49f96082ff
+
+
+
+
 # AI-Loan-Underswriting-Adviser
 
 ## Introduction
