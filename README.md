@@ -1,4 +1,5 @@
 
+![prototype](https://github.com/user-attachments/assets/79bcc157-db82-4d79-a0c7-d7668ac3d1d9)
 
 
 https://github.com/krakken190/AI-Loan-Underswriting-Adviser/assets/72223902/bdff8b32-ef0c-41d8-a7c3-ca49f96082ff
